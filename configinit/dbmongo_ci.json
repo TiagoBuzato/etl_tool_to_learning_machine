@@ -1,0 +1,23 @@
+{
+  "configBD": {
+    "typeDB": "mongodb",
+    "host" : "localhost",
+    "port" : 27017,
+    "dbs" : "test",
+    "collection" : "ci"
+  },
+  "fields" : [
+    "radar",
+    "hydro",
+    "starnet",
+    "earth",
+    "vulnerability",
+    "basin_mean_radar",
+    "basin_mean_hydro",
+    "1h_radar",
+    "1h_hydro",
+    "1h_basin_radar",
+    "1h_basin_hydro",
+    "flood"
+  ]
+}
